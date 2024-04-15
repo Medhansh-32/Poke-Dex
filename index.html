@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poke`dex</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+    <link rel="icon" href="Pokeball-PNG-Images.png">
+</head>
+<body>
+    <h1>Welcome To Your Poke`Dex</h1>
+    <i class="fas fa-search"></i> <input type="text" placeholder="   Pokemon Name :">
+    <button>Fetch</button>
+    <div id="img_heading">
+        <h4>Front Side </h4>
+        <h4 id="back_head">Back Side </h4>
+    </div>
+    <div id="img_both">      
+    <img id="front" >
+    <img id="back">
+</div>
+    <div id="main">
+        <div class="flex" id="set">
+    <h2 id="type_main"></h2>
+    <div id="type_heading"></div>
+    <p id="type" class="text"></p>
+</div>
+    <div class="flex">        
+  <h2 id="ability_main"></h2>
+    <div id="ability_heading"></div>
+    <p id="ability" class="text"></p>
+</div>
+</div>
+    <h2 id="moves_main"></h2>
+    <div id="moves_heading"></div>
+    <p id="moves" class="text"></p>
+    
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

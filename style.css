@@ -1,0 +1,149 @@
+
+img{  
+text-decoration: none;
+height: 15rem;
+width: 15rem;
+margin-top: 2rem;
+}
+.text{
+    font-size: 1rem;
+    
+}
+h2{
+    text-decoration: underline;
+}
+@font-face {
+    font-family: myfont;
+    src: url("PokemonGb-RAeo.ttf");
+}
+body{
+    background-image: url(last.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+      font-family: "myfont";
+      
+}
+
+#main{
+    display: flex;
+    justify-content: space-around;
+}
+i{
+    position: relative;
+left:0.5rem;
+color: black;
+bottom: 0.11rem;
+}
+input{
+    height: 2rem;
+    width: 15rem;
+    color: white;
+    font-size: 1rem;
+    border-radius: 2rem;
+    padding-left: 1.7rem;
+    background-color: rgb(241, 106, 106);
+    border: none;
+}
+#img_heading{
+    display:flex;
+    margin-top: 2rem;
+margin-left: 2rem;    
+}
+#back_head{
+    position: relative;
+    left: 5rem;
+}
+button{
+    position: relative;
+    background-color: white;
+    color:red;
+    font-size: large;
+    bottom: 0.05rem;
+    height: 2rem;
+    width: 7rem;
+    border-radius:4rem ;
+    border: none;
+}
+#img_both{
+    display: flex;
+}
+@media (width < 450px) {
+input{
+    width: 12rem; 
+    margin-left: -2rem;
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+  }
+  @media (width < 530px) {
+    body{
+        background-image: none;
+        background-color: red;
+    }
+img{
+    height: 12rem;
+    width: 12rem;
+}
+#img_heading{
+    display:flex;
+    margin-top: 2rem;
+margin-left: 1.5rem;    
+}
+#back_head{
+    position: relative;
+    left: 1.5rem;
+}
+  }
+  @media (width < 440px) {
+    .text{
+        font-size: 1rem;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    img{
+        height: 10rem;
+        width: 10rem;
+    }
+    button{
+        height: 2rem;
+    width: 6rem;
+    }
+      }
+   @media (width < 290px) {
+    input{
+        width: 6rem; 
+    }
+    button{
+        height: 2rem;
+    width: 4rem;
+    }
+h2{
+    font-size: 1rem;
+}
+p{
+    font-size: small;
+}
+        img{
+            height: 7.5rem;
+            width: 7.5rem;
+        }
+          }
+@media (290px<width<360px){
+    input{
+        width: 6rem;
+    }
+    button{
+        width: 4rem;
+    } 
+}
+    
