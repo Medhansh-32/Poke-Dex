@@ -7,7 +7,7 @@ Simpely write the name of pokemon whoose details you want to fetch and the spell
 
 # What it will show ?
 First it  will show the Image of the pokemon both front and the back side.
-It's Type and Abilities will be shown.
-And at last you are going to see Moves of that paticular Pokemon.
+It's Type and Abilities will be shown
+and at last you are going to see Moves of that paticular Pokemon.
 
 ⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴⚪🔴
