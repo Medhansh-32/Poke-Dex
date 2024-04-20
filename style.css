@@ -38,6 +38,7 @@ bottom: 0.11rem;
 input{
     height: 2rem;
     width: 15rem;
+    font-family: "myfont";
     color: white;
     font-size: 1rem;
     border-radius: 2rem;
