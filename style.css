@@ -57,9 +57,10 @@ margin-left: 2rem;
 }
 button{
     position: relative;
+    font-family: myfont;
     background-color: white;
     color:red;
-    font-size: large;
+    font-size: small;
     bottom: 0.05rem;
     height: 2rem;
     width: 7rem;
